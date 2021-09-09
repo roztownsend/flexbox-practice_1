@@ -11,7 +11,7 @@ body {
 /* Flexbox, card objects and dots */
 
 .flexbox {
-    width: 80%;
+    max-width: 80%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
