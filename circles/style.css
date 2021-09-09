@@ -1,0 +1,55 @@
+body {
+    background-color: #FAA307;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox {
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.card_container {
+    background-color: #03071E;
+    width: 273px;
+    height: 220px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox > *:nth-child(even) {
+    background-color: #6A040F;
+}
+
+.card__dot {
+    height: 50px;
+    width: 50px;
+    background-color: #748CAB;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.first {
+    
+}
+
+.second {
+
+}
+
+.third_fourth {
+    justify-content: space-evenly;
+}
+
+.fifth {
+
+}
