@@ -1,3 +1,5 @@
+/* Document-wide elements */
+
 body {
     background-color: #370617;
     color: #FFF;
@@ -8,6 +10,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* Flexbox, card objects and squares */
 
 .flexbox {
     width: 80%;
@@ -42,6 +46,7 @@ body {
     display: flex;
 }
 
+/* Special card classes by ordinal numbers */
 
 .first { 
     align-items: flex-end;
