@@ -11,10 +11,11 @@ body {
 /* Flexbox, card objects and dots */
 
 .flexbox {
-    max-width: 80%;
+    max-width: 70%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    flex-grow: inherit;
 }
 
 .card_container {
